@@ -4,16 +4,13 @@ using namespace std;
 
 int findDivisor(int x)
 {
-    int min ;
-    if(x>= 1){
-        min = x;
-    }
-    int i =min;
-    while(i>0){
-        if(x%i==0 ){
-            return i;
+    int y=2 ;
+    while(y<x)
+    {
+        if(x%y ==0 ){
+            return y ;
         }else{
-            i--;
+            y++;
         }
     }
 }
@@ -22,7 +19,7 @@ int main(){
     int x;
     cout<<"input";
     cin>>x;
-    cout<<"Expected output ="<<findDivisor(x);
+    cout<<"Expected output ="<<findDivisor(x)<<;
     
     
     return 0;
