@@ -2,21 +2,22 @@
 using namespace std;
 
 int main(){
-    int x;
+    double x, sum = 0.0;
     cout<<"Enter x: ";
     cin>>x;
-    int sum =0;
-    if(x==0){
-        cout<<"sum=0";
-
-    }else{
-        if(x>=0) {
+    while(x!=0){
+        if(x>0){
             sum=sum+x;
-            cout<<"Enter x:"<<sum+x;
+            cout<<"Enter x: ";
+            cin>>x;
 
+        }else{
+            cout<<"Enter x: ";
+            cin>>x;
         }
-        return x;
+        
     }
+    cout<<"sum = "<<sum;
     return 0;
 }
 

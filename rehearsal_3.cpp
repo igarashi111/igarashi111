@@ -3,7 +3,12 @@
 using namespace std;
 
 double sumSqrt(double x){
-    double x =pow(2,0.5);
+    x =0.0;
+    while(x>0){
+        x=1/pow(2,0.5);
+        x++;
+    }
+    
     return 0;
 }
 
