@@ -3,23 +3,19 @@
 using namespace std;
 
 double sumSqrt(double x){
-    x =0.0;
+    double sum=0;
     while(x>0){
-        x=1/pow(2,0.5);
-        x++;
+        sum=sum+1/sqrt(x);
+        x--;
     }
-    
     return 0;
 }
 
 int main()
 {
-    double x=1;
-    float sum=0;
-    while(x){
-        sum=sum+1/x;
-        x=x+1;
-    }
-    cout<<sum;
+    double x;
+    cout<<"input= ";
+    cin>>x;
+    cout<<"out put= "<<sumSqrt(x);
     return 0;
 }
