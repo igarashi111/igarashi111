@@ -7,8 +7,8 @@ using namespace std;
 string compress(string x){
     int i=0;
     string chosen;
-    while((i+1)<=x.size()){
-        chosen=x[i];
+    while(i<=x.size()){
+        chosen=chosen+x[i];
         i+=3;
     }
     return chosen;
