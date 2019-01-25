@@ -10,16 +10,17 @@ int main(){
         if(x%3!=0){
             cout<<"Enter x: ";
             x=x+5;
-            return y;
-        }else{
-            cout<<"x: ";
             
+        }else{
+            x=0.9*y;
+            cin>>x;
             
 
         }
        cout<<"X";
+       
 
     }
-    cout<<"E";
+    cout<<x<<"E";
     return 0;
 }

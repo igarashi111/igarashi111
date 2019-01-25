@@ -6,7 +6,7 @@ int sumTwoDigits(int N){
     int N=0,sum=0;
     while(N>=0,N<=9999){
         int i;
-        int j;
+        int j;                        
 
         sum=sum+N;
     }
