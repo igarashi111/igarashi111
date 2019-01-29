@@ -26,10 +26,10 @@ int main(){
     
     string day;
     cout<<"Fahsai: So....which day are you free to go with me?\n";
-    cout<<"Me: \n";
+    cout<<"Me: ";
     cin>>day;
     cout<<"Fahsai: Next "<<day<<"....that is OK!!! I'm looking forward to watch Star Wars VII with you.\n";
-    cout<<"Me: \n";
+    cout<<"Me: ";
     cout<<"Fahsai: 555+ see you "<<day<<". Bye Bye \(^ ^)/ \n";
 
 
