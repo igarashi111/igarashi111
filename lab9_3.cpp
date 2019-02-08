@@ -11,7 +11,7 @@ int main(){
     ifstream dataIn;
     dataIn.open("score.txt");
 
-    double count =0.0;
+    int count =0;
     while (getline(dataIn,data)){
         count++;
     }
