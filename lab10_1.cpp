@@ -5,15 +5,11 @@ using namespace std;
 
 int main(){
     srand(time(0));
-    bool taken[9];
-
-    int i=0;
-    for(i=0;i<10;i++){
-        taken[i]=false;
-    }
-    int takenCount=5;
-    while(takenCount>0){
-        int random=(rand()*100)%10;
-        
-    }
+    string grade[9]={"A","B+","B","C+","C","D+","D","F","W"};
+    int x=rand()%9;
+    cout<<"Press Enter 3 times to reveal your future.";
+    cin.get();
+    cin.get();
+    cin.get();
+    cout<<"You will get "<<grade[x]<< " in this 261102.";
 }
