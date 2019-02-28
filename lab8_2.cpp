@@ -9,8 +9,7 @@ void printO(int N,int M){
 			}
 		cout << endl;
 		}
-	}
-	else cout << "Invalid input";
+	}else cout << "Invalid input";
 }
 int main(){
 	
