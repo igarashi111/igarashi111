@@ -1,7 +1,8 @@
 #include<iostream>
+#include<fstream>
 using namespace std;
 
-void sort(float x[20.0], int N){
+void sort(float x[], int N){
 	for(int i = 1; i < N; i++){
 		for(int j = i; j > 0; j--){
 			if(x[j] < x[j-1]){
@@ -16,13 +17,14 @@ void sort(float x[20.0], int N){
 }
 
 int main(){
-	ifstream source("score1.txt");
+	ifstream source;
+    source.open("score1.txt");
 	string line;
+    ofstream textOut("result.txt");
 	while(getline(source,line)){
 		cout << line << "\n";
 	}
-	
-	
+    
 
 	
 	return 0;
